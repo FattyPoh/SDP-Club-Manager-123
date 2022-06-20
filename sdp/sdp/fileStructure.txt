@@ -1,0 +1,7 @@
+/api - for backend php scripts
+/css - for all css files
+/images - for all images used
+/php - for other php files
+/sql - sql of our databases
+/template - for frequently used html templates
+

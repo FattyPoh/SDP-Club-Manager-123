@@ -1,0 +1,132 @@
+
+.panel{
+    background: white;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 4%;
+    box-shadow: 2px 5px 20px
+    rgba(119,119,119,.5);
+    border-radius: 10px 10px 0 0;
+    }
+.club{
+    background: white;
+    width: 200px;
+    height: 120px;
+    margin:4%;
+    box-shadow: 2px 5px 20px
+    rgba(119,119,119,.5);
+    padding: 7px 10px ;
+    text-align: center;
+    font-family: "Poppins";
+    border: 1px solid #2980b9;
+    border-radius: 10px;
+    float: left;
+    cursor: pointer;
+    color:#2980b9;
+    font-size: 28px;
+    user-select:none;
+}
+.club a{
+ position:relative;
+ top:18%;
+}
+.club:hover{
+ background:linear-gradient(120deg,#2980b9, #6b60df);
+ color:white;
+}
+#enroll{
+ display:none;
+}
+#click{
+ display:none;
+}   
+.popup{
+ display:none;
+ position:absolute;
+ top:25%;
+ left:7.5%;
+ width:85%;
+ height:500px;
+ background:white;
+ font-family: "Poppins";
+ border-radius: 20px;
+ box-shadow: 0px 2px 12px
+    rgba(0,0,0,.4);
+}
+.popup2{
+ display:none;
+ position:absolute;
+ text-align:center;
+ top:30%;
+ left:35%;
+ width:30%;
+ height:300px;
+ background:white;
+ font-family: "Poppins";
+ border-radius: 20px;
+ box-shadow: 0px 2px 12px
+    rgba(0,0,0,.4);
+}
+body{
+ background:linear-gradient(120deg,#2980b9, #6b60df);
+}
+h2{
+    color:#6b60df;
+    position:absolute;
+    margin-top:10px;
+    margin-left:32%;
+}
+h3{
+background:linear-gradient(120deg,#2980b9, #6b60df);
+height: 58px;
+padding: 15px 20px 5px;
+font-size: 25px;
+color:white;
+overflow:hidden;
+border-radius: 10px 10px 0 0;
+box-shadow: 0px 2px 3px
+    rgba(0,0,0,.2);
+}
+.fa-times{
+ position:absolute;
+ right:20px;
+ top:20px;
+ color:white;
+ cursor:pointer;
+ font-size: 30px;
+}
+h4{
+ padding-top:10px;
+ padding-left:10px;
+ font-size:19px;
+ color:#2980b9;
+}
+.popup p{
+ padding-left:10px;
+}
+.line{
+ bottom:60px;
+ width:100%;
+ height:1px;
+ background:silver;
+}
+.enroll-btn{
+ position:absolute;
+ bottom:5%;
+ left:45%;
+ border: 1px solid #2980b9;
+ border-radius: 3px;
+ background:#2980b9;
+ color: white;
+ padding: 8px 10px;
+ font-size: 20px;
+ cursor:pointer;
+ 
+}
+.enroll-btn:hover{
+ background:white;
+ color:#2980b9;
+ transition:.5s;
+}

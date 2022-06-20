@@ -1,0 +1,93 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+body{
+    overflow:scroll;
+    background-color: rgb(94, 75, 190);
+}
+.content{
+    background-color: white;
+    margin: auto;
+    height:100%;
+    width:90%;
+    border-radius:5px;
+}
+h1{
+    font-size:25px;
+}
+table{
+    font-size:medium;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+tr,th,td{
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    width:auto;
+}
+a{
+    text-decoration: underline;
+    font-size:25px;
+}
+.print-btn{
+    margin-top:50px;
+    margin-bottom:50px;
+    cursor:pointer;
+    font-size:15px;
+    background: white;
+    height:30px;
+    border:1px solid darkgrey;
+    border-radius: 5px;
+}
+.print-btn:hover{
+    background-color:rgb(94, 75, 190);
+    color:white;
+    transition: all .8s ease;
+    border-radius: 5px;
+}
+.back-btn{
+    position:absolute;
+    top:5%;
+    left:9%;
+    font-weight:bold;
+    color:rgb(94, 75, 190);
+    cursor:pointer;
+    font-size:20px;
+    background: white;
+    border:0;
+    border-radius: 5px;
+    border:1px solid silver;
+    width:60px;
+    height:30px;
+}
+.back-btn:hover{
+    background-color:rgb(94, 75, 190);
+    color:white;
+    transition: all .5s ease;
+    border-radius: 10px;
+}
+@media print {
+    .print-btn{
+      display: none;
+    }
+    .back-btn{
+      display: none; 
+    }
+  }
+ .content img{
+     border-radius: 10px;
+ }
+ title{
+     text-align:center;
+
+ }
+ #date-time{
+    position:relative;
+    margin:auto;
+    float:right;
+}

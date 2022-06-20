@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins';
+}
+body{
+    background:rgb(94, 75, 190);
+}
+.content{
+  background-color:white;
+  border-radius:10px;
+  width:90%;
+  height:500px;
+  margin:auto;
+  margin-top:60px;
+}
+td{
+  border-radius:10px;
+  height:250px;
+  width:250px;
+  text-align:center;
+  cursor:pointer;
+}
+td:hover{
+  background-color:#e1e8f2;
+  transform: translateY(-10px);
+  transition: transform 250ms;
+}
+td img:hover{
+  width:270;
+  height:270;
+  transition: all .5s ease;
+}
+table{
+  margin:auto;
+  border-spacing:80px;
+}
+.clubName{
+  text-align: center;
+  color: rgb(94, 75, 190);
+  font-weight:bold;
+}
+th{
+  padding:25px;
+  border-right: 2px solid rgb(94, 75, 190);
+}
+td a{
+  text-decoration:none;
+  font-size:15px;
+  font-weight:bold;
+}
